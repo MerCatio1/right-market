@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .questions-containter {
+        padding: 90px 0 90px 10px;
+      }
+      h5 {
+        color: #dedede;
+      }
+      .text-note {
+        font-size: 18px;
+        color: #97e0ff;
+      }
+      .question-text {
+        font-size: 22px;
+      }
+      .logo {
+        max-height: 100px;
+      }
+      @media (max-width: 768px) {
+        .questions-containter {
+          padding: 40px 0 40px 10px;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        h5 {
+          font-size: 0.9rem;
+        }
+        .text-note {
+          font-size: 16px !important;
+        }
+
+        .logo {
+          max-height: 70px !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-secondary text-light font-italic">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <img class="logo" src="./logo.png" alt="Logo" />
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-12 d-flex flex-column align-items-center text-center my-4"
+        >
+          <h2 style="max-width: 700px">
+            How About 7 Quick Questions to Confirm You're in the Perfect
+            Market/Niche?
+          </h2>
+          <h5>Discover the Answer by Taking These 7 Quick Questions!</h5>
+        </div>
+      </div>
+
+      <div class="row mt-3 text-center d-flex justify-content-center">
+        <p class="text-note">
+          Important Note: Think carefully about these questions before choosing
+          an option! It's critical for more exact feedback.
+        </p>
+      </div>
+
+      <div class="row questions-containter">
+        <div class="col-md-10">
+          <div class="questionnaire" id="questionnaire">
+            <!-- Question 1 -->
+            <div class="question" id="question-1">
+              <p class="question-text">
+                1-Which option best suits your service or product?
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="a"
+                  checked
+                  class="form-check-input"
+                />
+                a. It fixes a specific pain
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="b"
+                  class="form-check-input"
+                />
+                b. It provides faster growth
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q1"
+                  value="c"
+                  class="form-check-input"
+                />
+                c. It provides additional value, (more of a "Good to have" than
+                a "Need to have")
+              </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question" id="question-2">
+              <p class="question-text">
+                2- Are they (clients/customers) easy to find or target?
+                Reminder: Choose very carefully.
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="Yes"
+                  checked
+                  class="form-check-input"
+                />
+                a) Yes
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q2"
+                  value="No"
+                  class="form-check-input"
+                />
+                b) No
+              </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question" id="question-3">
+              <p class="question-text">3- Is your chosen market growing?</p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q3"
+                  value="Yes"
+                  checked
+                  class="form-check-input"
+                />
+                a) Yes
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q3"
+                  value="No"
+                  class="form-check-input"
+                />
+                b) No
+              </label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question" id="question-4">
+              <p class="question-text">
+                4- On a scale of 1 to 5, how strong is their purchasing power?
+                One represents "Not Enough", and five represents "More Than
+                Enough".
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="1"
+                  checked
+                  class="form-check-input"
+                />
+                1
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="2"
+                  class="form-check-input"
+                />
+                2
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="3"
+                  class="form-check-input"
+                />
+                3
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="4"
+                  class="form-check-input"
+                />
+                4
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q4"
+                  value="5"
+                  class="form-check-input"
+                />
+                5
+              </label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question" id="question-5">
+              <p class="question-text">
+                5- Which one of the following markets are you in?
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="a"
+                  checked
+                  class="form-check-input"
+                />
+                a. Health
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="b"
+                  class="form-check-input"
+                />
+                b. Wealth
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="c"
+                  class="form-check-input"
+                />
+                c. Relationships
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q5"
+                  value="d"
+                  class="form-check-input"
+                />
+                d. Other
+              </label>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question" id="question-6">
+              <p class="question-text">
+                6- Are you providing a solution for a general problem in a broad
+                market, or are you focused on a specific niche?
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="a"
+                  checked
+                  class="form-check-input"
+                />
+                a. My services/products provide solutions for a broad market.
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="b"
+                  class="form-check-input"
+                />
+                b.My services/products are highly niche-oriented.
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q6"
+                  value="c"
+                  class="form-check-input"
+                />
+                c. Somewhere in between.
+              </label>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question" id="question-7">
+              <p>
+                Answer only If you have chosen the option ''b'' in the previous
+                question.
+                <br />
+                <span class="question-text"
+                  >7- Down to how many levels have you picked your niche?
+                </span>
+                <br />
+                Example:
+                <br />
+                1: Wealth -> Digital Marketing -> Direct response -> Building
+                high-converting funnels.
+                <br />
+                Level 1 -> Level 2 -> Level 3 -> Leve 4
+                <br />
+                2: Health -> Weight loss -> People with 50 kg overweight ->
+                Using a simple diet
+                <br />
+                Level 1 -> Level 2 -> Level 3 -> Leve 4
+              </p>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q7"
+                  checked
+                  value="a"
+                  class="form-check-input"
+                />
+                a. 1 level
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="b"
+                  class="form-check-input"
+                />
+                b. 2 levels
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="c"
+                  class="form-check-input"
+                />
+                c. 3 levels
+              </label>
+              <label class="form-check">
+                <input
+                  type="radio"
+                  name="q7"
+                  value="c"
+                  class="form-check-input"
+                />
+                d. 4 levels
+              </label>
+            </div>
+            <!-- Add more questions similarly -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row fixed-bottom">
+        <div class="col-md-12 mt-3" id="page-links">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled" id="prev-page">
+              <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item active" id="page-1">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item" id="page-2">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item" id="page-3">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item" id="page-4">
+              <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item" id="page-5">
+              <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item" id="page-6">
+              <a class="page-link" href="#">6</a>
+            </li>
+            <li class="page-item" id="page-7">
+              <a class="page-link" href="#">7</a>
+            </li>
+            <!-- Add more page items based on the number of questions -->
+            <li class="page-item" id="next-page">
+              <a class="page-link" href="#">Next</a>
+            </li>
+            <!-- Final submit button -->
+            <li class="page-item" id="submit-button">
+              <a class="page-link" href="#">Submit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade mt-5 text-dark"
+      id="resultModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="resultModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resultModalLabel">
+              Questionnaire Result
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="resultModalBody">
+            <!-- Result content will be displayed here -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // General feedbacks as response
+      const gfs = [
+        {
+          text: "GREAT! You are in the right market/niche. Now focus on how to create undeniable offers and how to market them.",
+          chancesOfShowing: 0,
+        },
+        {
+          text: "Shaky market choice. Take time and do some research. See if it is a risk worth taking.",
+          chancesOfShowing: 0,
+        },
+        {
+          text: " You are in the wrong market. Starting to shift immediately towards a better market would be a wise decision.",
+          chancesOfShowing: 0,
+        },
+        {
+          text: "Good! You are in the RIGHT market, but your services are very general. Going a bit deeper in the niche would be a wise choice.",
+          chancesOfShowing: 0,
+        },
+      ];
+      const answers = {};
+
+      // Questionnaire logic here
+      let currentPage = 1;
+
+      // Function to show/hide questions based on the current page
+      function showPage(page) {
+        $(".question").hide();
+        $("#question-" + page).show();
+        updateNextButton(); // Call updateNextButton() whenever a question is shown.
+      }
+
+      // Function to update the "Next" button
+      function updateNextButton() {
+        const selectedOption = $("input[name='q" + currentPage + "']:checked");
+        if (selectedOption.length > 0) {
+          $("#next-page").prop("disabled", false);
+        } else {
+          $("#next-page").prop("disabled", true);
+        }
+      }
+
+      //   If option b is not selected on question 6 then remove next button and add submit button
+      $("input[name='q6']").change(function () {
+        $("#next-page").hide();
+        if ($("input[name='q" + currentPage + "']:checked").val() != "b") {
+          $("#next-page").hide();
+          $("#submit-button").show();
+        } else {
+          $("#next-page").show();
+          $("#submit-button").hide();
+        }
+      });
+
+      // Function to handle the "Next" button click
+      $("#next-page").click(function () {
+        // Add the current answer to the answers array
+        answers["q" + currentPage] = $(
+          "input[name='q" + currentPage + "']:checked"
+        ).val();
+
+        // Check for direct termination
+        if (
+          currentPage === 2 &&
+          $("input[name='q" + 2 + "']:checked").val() === "No"
+        ) {
+          showResults(
+            gfs[2].text +
+              "<br /> Your customers/clients should be easy to target otherwise you are just chasing a ghost."
+          );
+          $("#page-links").hide();
+          $("#questionnaire").hide();
+        } else if (
+          (currentPage === 4 &&
+            $("input[name='q" + 4 + "']:checked").val() == "1") ||
+          $("input[name='q" + 4 + "']:checked").val() == "2"
+        ) {
+          showResults(
+            gfs[2].text +
+              "<br /> Right there you have got an indication that you are in the wrong market. Not matter how good your marketing skills are or how irresistible your offer might be. There is not enough purchasing power. Your market does not afford to pay you."
+          );
+          $("#page-links").hide();
+          $("#questionnaire").hide();
+        } else {
+          currentPage++;
+          showPage(currentPage);
+          updatePagination();
+        }
+      });
+
+      // Function to handle the "Previous" button click
+      $("#prev-page").click(function () {
+        currentPage--;
+        showPage(currentPage);
+        updatePagination();
+        $("#submit-button").hide();
+        $("#next-page").show();
+      });
+
+      // Function to update pagination based on the current page
+      function updatePagination() {
+        $("#submit-button").hide();
+        $(".page-item").removeClass("active");
+        $("#page-" + currentPage).addClass("active");
+
+        if (currentPage === 1) {
+          $("#prev-page").addClass("disabled");
+        } else {
+          $("#prev-page").removeClass("disabled");
+        }
+
+        if (currentPage === 7) {
+          $("#next-page").hide();
+          $("#submit-button").show();
+        } else {
+          $("#next-page").show();
+        }
+
+        if (currentPage === 6) {
+          $("#next-page").hide();
+          $("#submit-button").show();
+        }
+      }
+
+      // Initial setup
+      showPage(currentPage);
+      updatePagination();
+
+      // Submit button click
+      $("#submit-button").click(function () {
+        // Question 1
+        if (answers.q1 == "a" || answers.q1 == "b") gfs[0].chancesOfShowing++;
+        else if (answers.q1 == "c") gfs[3].chancesOfShowing++;
+
+        // Question 2
+        if (answers.q2 == "Yes") gfs[0].chancesOfShowing++;
+
+        // Question 3
+        if (answers.q3 == "Yes") gfs[0].chancesOfShowing++;
+        else if (answers.q3 == "No") gfs[3].chancesOfShowing++;
+
+        // Question 4
+        if (answers.q4 == "3") {
+          gfs[1].chancesOfShowing++;
+          gfs[1].text +=
+            "\n Elaboration: The purchasing power of your market is shaky. It might not be easy for you to charge good money for your services. If you offer mediocre prices then it might work.";
+        } else if (answers.q4 == "4" || answers.q4 == "5") gfs[0].chancesOfShowing++;
+
+        // Question 5
+        if (answers.q5 == "a" || answers.q5 == "b" || answers.q5 == "c")
+          gfs[0].chancesOfShowing++;
+        else if (answers.q5 == "d") gfs[1].chancesOfShowing++;
+
+        // Question 6
+        if (answers.q6 == "a") gfs[3].chancesOfShowing++;
+        else if (answers.q6 == "b") gfs[0].chancesOfShowing++;
+        else if (
+          answers.q6 == "c" &&
+          (answers.q1 == "a" || answers.q1 == "b") &&
+          answers.q2 == "Yes" &&
+          answers.q3 == "Yes" &&
+          (answers.q4 == "3" || answers.q4 == "4" || answers.q4 == "5") &&
+          (answers.q5 == "a" || answers.q5 == "b" || answers.q5 == "c")
+        )
+          gfs[3].chancesOfShowing++;
+        else gfs[1].chancesOfShowing++;
+
+        // Question 7
+        if (
+          answers.q7 == "a" &&
+          (answers.q1 == "a" || answers.q1 == "b") &&
+          answers.q2 == "Yes" &&
+          answers.q3 == "Yes" &&
+          (answers.q4 == "3" || answers.q4 == "4" || answers.q4 == "5") &&
+          (answers.q5 == "a" || answers.q5 == "b" || answers.q5 == "c")
+        )
+          gfs[3].chancesOfShowing++;
+        else gfs[1].chancesOfShowing++;
+        showResults(calculateResult());
+      });
+
+      function calculateResult() {
+        let currentHighestGfChances = gfs[0].chancesOfShowing;
+        let currentHighestGfText = gfs[0].text;
+        for (let i = 1; i < gfs.length; i++) {
+          if (gfs[i].chancesOfShowing > currentHighestGfChances) {
+            currentHighestGfChances = gfs[i].chancesOfShowing;
+            currentHighestGfText = gfs[i].text;
+          }
+        }
+        return currentHighestGfText;
+      }
+
+      function showResults(feedback) {
+        let resultHtml = `<p>${feedback}</p>`;
+        $("#resultModalBody").html(resultHtml);
+        $("#resultModal").modal("show");
+
+        $("#page-links").hide();
+        $("#questionnaire").hide();
+      }
+    </script>
+  </body>
+</html>
